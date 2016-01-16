@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CLIENT_TO_ATH_PAR - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP353.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_REENTRANT" /D "RW_NO_STL" /D "NOMINMAX" /D "RW_MULTI_THREAD" /Fp"Release/CLIENT_TO_ATH_PAR.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\NewDevelopment_prod\ATH_DEBITO\CLIENT_TO_ATH_PAR\Client_to_Posterm.cpp"
+"C:\NewDevelopment_prod\ATH_DEBITO\CLIENT_TO_ATH_PAR\FDumpHex.cpp"
+"C:\NewDevelopment_prod\ATH_DEBITO\CLIENT_TO_ATH_PAR\IsoBitMap.cpp"
+"C:\NewDevelopment_prod\ATH_DEBITO\CLIENT_TO_ATH_PAR\MQUtility.cpp"
+"C:\NewDevelopment_prod\ATH_DEBITO\CLIENT_TO_ATH_PAR\Iso8583Msg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP353.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP354.tmp" with contents
+[
+thr4s.lib tls4s.lib net4s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib imqb23vn.lib imqc23vn.lib imqs23vn.lib MQM.lib sqlapi.lib /nologo /subsystem:console /incremental:no /pdb:"Release/CLIENT_TO_ATH_PAR.pdb" /machine:I386 /out:"Release/CLIENT_TO_ATH_PAR.exe" 
+.\Release\Client_to_Posterm.obj
+.\Release\FDumpHex.obj
+.\Release\IsoBitMap.obj
+.\Release\MQUtility.obj
+.\Release\Iso8583Msg.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP354.tmp"
+<h3>Output Window</h3>
+Compiling...
+Client_to_Posterm.cpp
+FDumpHex.cpp
+IsoBitMap.cpp
+MQUtility.cpp
+C:\NewDevelopment_prod\ATH_DEBITO\CLIENT_TO_ATH_PAR\MQUtility.cpp(65537) : warning C4049: compiler limit : terminating line number emission
+Iso8583Msg.cpp
+Linking...
+LINK : warning LNK4089: all references to "imqb23vn.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "imqc23vn.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "sqlapi.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+CLIENT_TO_ATH_PAR.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
